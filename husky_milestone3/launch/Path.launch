@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="husky_milestone3" type="FindPath.py" name="PathPlanner" output="screen">
+	</node>
+	<node pkg="husky_milestone3" type="Go_Goal.py" name="Turtlebot3_Control" output="screen">
+	</node>
+</launch>
